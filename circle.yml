@@ -4,5 +4,5 @@ machine:
   xcode:
     version: "6.3.1"
   environment:
-    XCODE_SCHEMA: test-circleci-crashlytics
+    XCODE_SCHEME: test-circleci-crashlytics
     XCODE_WORKSPACE: test-circleci-crashlyrics.xcworkspace
