@@ -4,3 +4,6 @@ link_with 'test-circleci-crashlytics', 'test-circleci-crashlyticsTests'
 
 pod 'SDWebImage', '~>3.7'
 
+# Crashlytics
+pod 'Fabric'
+pod 'Crashlytics'
