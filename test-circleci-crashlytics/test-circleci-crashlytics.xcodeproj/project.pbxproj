@@ -158,7 +158,6 @@
 				24AA572C1B8E2E3100599138 /* Resources */,
 				068AD537046EBAE15474E54A /* Copy Pods Resources */,
 				24AA57571B8E32D000599138 /* Run Script */,
-				24AA57581B8E359700599138 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -289,21 +288,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 5d01d22c5dd9c5bda64ccae1ab5e24d61f909195 ae9aff29fee0fff11e21f5a987651a2a10b9c582f1d9a04391de768e5f960ca1";
+			shellScript = "./Fabric.framework/run  5d01d22c5dd9c5bda64ccae1ab5e24d61f909195 ae9aff29fee0fff11e21f5a987651a2a10b9c582f1d9a04391de768e5f960ca1";
 			showEnvVarsInLog = 0;
-		};
-		24AA57581B8E359700599138 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "${SOURCE_ROOT}/Crashlytics.framework/submit 5d01d22c5dd9c5bda64ccae1ab5e24d61f909195 ae9aff29fee0fff11e21f5a987651a2a10b9c582f1d9a04391de768e5f960ca1";
 		};
 		260C4537D984FB5066F09D0A /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
