@@ -1,4 +1,5 @@
 platform :ios, '8.0'
+link_with 'test-circleci-crashlytics', 'test-circleci-crashlyticsTests'
 
 pod 'SDWebImage', '~>3.7'
 
